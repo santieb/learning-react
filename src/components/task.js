@@ -4,7 +4,7 @@ class Task extends react.Component {
     
     StyleCompleted() {
         return {
-            fonrSize: '20px',
+            fontSize: '20px',
             color: this.props.task.done ? 'gray' : 'black',
             textDecoration: this.props.task.done ? 'line-through' : 'none'
         }
