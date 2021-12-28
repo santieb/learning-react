@@ -7,8 +7,10 @@ class TaskForm extends react.Component {
         description: ''
     }
 
-    onSubmit = event => {event.preventDefault()
-    console.log(this.state)
+    onSubmit = event => {
+        const { title, description } = this.state
+        event.preventDefault()
+        this.props.addTask(title, description)
     }
 
     onChange = event => {
