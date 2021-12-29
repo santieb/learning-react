@@ -1,4 +1,4 @@
-###Practical Course by fazt
+### Practical Course by fazt
 
 In the project directory, you can run:
 
